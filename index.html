@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>What Zodiac Element Should You Date?</title>
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto+Mono:wght@500&display=swap');
+
+body {
+background-image: url("space.jpg") ;
+background-attachment: fixed;
+opacity:0.95;
+
+}
+
+img {
+  opacity:;
+}
+
+p {
+  font-size: 28px;
+  font-family: roboto mono;
+  color: white;
+}
+
+h2 {
+  color:white;
+  font-family:barlow;
+  font-size:43px;
+}
+
+label {
+  color:white;
+  font-family: barlow;
+  font-size:28px;
+}
+
+#response {
+	display: none;
+}
+
+.jumbotron {
+ 
+  font-family: roboto mono;
+  text-align: center;
+  background-image: linear-gradient(white,gray);
+
+}
+
+.display-4 {
+font-size:59px;
+}
+
+.lead {
+font-size: 35px;
+
+}
+
+    </style>
+
+
+  </head>
+
+  <body>
+
+   
+<div id="header">
+  <div class="jumbotron">
+  <h1 class="display-4"> What Zodiac Element Should You Date?</h1>
+  <p class="lead">Fire, Earth, Water or Air? Who is the one?</p>
+</div>
+  </div>
+  <form id="form1">
+   <div class="container">
+        
+
+
+   <div class="row">
+    <div class="col-sm-12">
+<h2 >What's a Great First Date?</h2>
+    </div>
+<div class="col-sm-12">
+<input type="radio" name="date" value="fire" id="hike" /><label for="hike">Going On a Challening Hike</label>
+</div>
+<div class="col-sm-12">
+<input type="radio" name="date" value="earth" id="movie night" /><label for="movie night">Movie Night and a Home Cooked Meal</label>
+</div>
+<div class="col-sm-12">
+<input type="radio" name="date" value="air" id="painting" /><label for="painting">Painting Lesson</label>
+</div>
+<div class="col-sm-12">
+<input type="radio" name="date" value="water" id="star gazing" /><label for="star gazing">Picnic at Park and Star Gazing</label>
+ </div>
+    </div>
+    </div>
+
+
+  <br>
+  <br>
+
+
+ <div class="container">
+ <div class="row">
+
+    <div class="col-sm-12">
+<h2>What's Your Favorite Desert?</h2>
+  </div>
+    <div class="col-sm-12">
+<input type="radio" name="desert" value="water" id="ice cream" /><label for="ice cream">Ice Cream</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="desert" value="fire" id="creme brulee" /><label for="creme brulee">Creme Brulee</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="desert" value="air" id="cheesecake" /><label for="cheesecake">Cheesecake</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="desert" value="earth" id="tiramisu" /><label for="tiramisu">Tiramisu</label>
+    </div>
+</div>
+</div>
+
+<br>
+<br>
+
+ <div class="container">
+ <div class="row">
+
+    <div class="col-sm-12">
+<h2>How Do You Drink Your Coffee?</h2>
+  </div>
+    <div class="col-sm-12">
+<input type="radio" name="coffee" value="earth" id="black" /><label for="black">Black</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="coffee" value="air" id="cappuccino" /><label for="cappuccino">Cappuccino</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="coffee" value="water" id="latte" /><label for="latte">Latte</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="coffee" value="fire" id="frappucino" /><label for="frappuccino">Frappuccino</label>
+    </div>
+</div>
+</div>
+
+
+<br>
+<br>
+
+ <div class="container">
+ <div class="row">
+
+    <div class="col-sm-12">
+<h2>Your Dream Vacation:</h2>
+  </div>
+    <div class="col-sm-12">
+<input type="radio" name="vacation" value="water" id="hawaii" /><label for="hawaii">Hawaii</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="vacation" value="earth" id="paris" /><label for="paris">Paris</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="vacation" value="air" id="northern lights" /><label for="transgender">Northern Lights</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="vacation" value="fire" id="machu picchu" /><label for="machu picchu">Machu Picchu</label>
+    </div>
+</div>
+</div>
+
+<br>
+<br>
+
+ <div class="container">
+ <div class="row">
+
+    <div class="col-sm-12">
+<h2>Favorite Movie Genre:</h2>
+  </div>
+    <div class="col-sm-12">
+<input type="radio" name="genre" value="action" id="fire" /><label for="action">Action</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="genre" value="drama" id="earth" /><label for="drama">Drama</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="genre" value="horror" id="water" /><label for="horror">Horror</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="genre" value="air" id="romantic comedy" /><label for="romantic comedy">Romantic Comedy</label>
+    </div>
+</div>
+</div>
+
+
+<br>
+<br>
+
+ <div class="container">
+ <div class="row">
+
+    <div class="col-sm-12">
+<h2>Your Love Language:</h2>
+  </div>
+    <div class="col-sm-12">
+<input type="radio" name="language" value="air" id="gift giving" /><label for="man">Gift Giving</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="language" value="water" id="words" /><label for="woman">Words of Affirmation</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="language" value="earth" id="service" /><label for="service">Acts of Service</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="language" value="fire" id="touch" /><label for="touch">Physical Touch</label>
+    </div>
+</div>
+</div>
+
+
+<br>
+<br>
+
+ <div class="container">
+ <div class="row">
+
+    <div class="col-sm-12">
+<h2>Your Dream City:</h2>
+  </div>
+    <div class="col-sm-12">
+<input type="radio" name="city" value="fire" id="la" /><label for="la">Los Angeles</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="city" value="air" id="ny" /><label for="ny">New York</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="city" value="earth" id="dc" /><label for="dc">Washington D.C.</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="city" value="water" id="austin" /><label for="austin">Austin</label>
+    </div>
+</div>
+</div>
+
+
+<br>
+<br>
+
+
+ <div class="container">
+ <div class="row">
+
+    <div class="col-sm-12">
+<h2>Your Favorite Quality in Someone:</h2>
+  </div>
+    <div class="col-sm-12">
+<input type="radio" name="quality" value="earth" id="ambition" /><label for="ambition">Ambition</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="quality" value="water" id="trust" /><label for="trust">Trustworthiness</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="quality" value="fire" id="magnet" /><label for="magnet">Magneticism</label>
+    </div>
+    <div class="col-sm-12">
+<input type="radio" name="quality" value="air" id="unique" /><label for="unique">Uniqueness</label>
+    </div>
+</div>
+</div>
+
+<br>
+<br>
+
+ <div class="container">
+ <div class="row">
+    <div class="col-sm-2">
+    	<button type="submit" value="Submit"> >See My Results! </button>
+   </div>
+     <div class="col-sm-10">
+ </form>
+
+<p id="response"> You Got <span id="answer"></span></p>
+</div>
+</div>
+
+
+
+<!-- close main div -->
+
+    <script>
+ 
+    
+	document.getElementById("form1").onsubmit=function() {
+	   //displays the response DOM element
+    document.getElementById("response").style.display = "block";
+    
+    //resets the DOM element on submit
+    document.getElementById("answer").innerHTML = "";
+    
+	date = document.querySelector('input[name = "date"]:checked').value;
+    
+    desert = document.querySelector('input[name = "desert"]:checked').value;
+     
+    coffee = document.querySelector('input[name = "coffee"]:checked').value;
+
+    vacation = document.querySelector('input[name = "vacation"]:checked').value;
+
+    genre = document.querySelector('input[name = "genre"]:checked').value;
+
+    language = document.querySelector('input[name = "language"]:checked').value;
+
+    city = document.querySelector('input[name = "city"]:checked').value;
+
+    quality = document.querySelector('input[name = "quality"]:checked').value;
+	    
+	  // initialize score variables 
+	  earth = 0;
+	  water = 0;
+	  fire = 0;
+	  air = 0;
+	  
+	  //function to calculate score for each question
+	  function eachscore(x){
+	  if(x == "earth") { earth = earth + 1}
+	  if(x == "water") { water = water + 1}
+	  if(x == "fire") { fire = fire + 1}
+	  if(x == "air") { air = air + 1}
+	  }
+	  // for the above function, you could also change the 1 to a variable so you could give more points for certain questions
+	  
+	  //call function for each question
+   	eachscore(eval("date"));
+    eachscore(eval("desert"));
+    eachscore(eval("coffee"));
+    eachscore(eval("vacation"));
+    eachscore(eval("genre"));
+    eachscore(eval("language"));
+    eachscore(eval("city"));
+    eachscore(eval("quality"));
+	  
+	console.log(earth);
+    console.log(water);
+    console.log(fire);
+    console.log(air);
+	  
+	 all = [earth, water, fire , air];
+	  
+	//get the max score  in the array
+	maxscore = Math.max.apply(Math,all);
+	
+    // object holding scores and feedback	
+ 
+    scores = [{index:0, feedback: "Earth Sign! <br> <img src=earth.jpg width='300' />"},
+{index:1, feedback: "Water Sign! <br> <img src=water.jpg width='300' />"},
+{index:2, feedback: "Fire Sign! <br> <img src=fire.jpg width='300' />"},
+{index:3, feedback: "Air Sign! <br> <img src=air.jpg width='300' />"}];
+	
+    //figure out which index # holds the max score 
+	for(i=0; i<all.length; i++) {
+	if(all[i]==maxscore) {
+    //this gets one answer, the last one it encounters with a match
+    document.getElementById("answer").innerHTML = scores[i].feedback;
+    
+    //this version would allow for appending multiple answers; replace statement above
+    //document.getElementById("answer").innerHTML += scores[i].feedback + "; ";
+	}
+	}
+		   
+return false; // required to not refresh the page; just leave this here
+	   }// end the submit function
+	
+
+</script>
+ 
+  
+
+  </body>
+
+
+</html>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
